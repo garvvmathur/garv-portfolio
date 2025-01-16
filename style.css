@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+}
+
+.intro-background {
+    background-color: #393E46;
+}
+
+.intro-background h2 {
+    color: #00ADB5;
+    font-family: "Sacramento", cursive;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.intro-background p {
+    color: #EEEEEE;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.content-background {
+    background-color: #222831;
+}
+
+.content-container-h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #66bfbf;
+    font-weight: normal;
+}
+
+#hello-p {
+    color: #EEEEEE;
+    font-family: "Merriweather", serif;
+}
+
+.profile-img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#language-container h3 {
+    color: #EEEEEE;
+}
+
+#footer {
+    background-color: #393E46;
+    margin:0;
+    padding: 0;
+    color: #EEEEEE;
+}
