@@ -49,3 +49,15 @@ body {
     padding: 0;
     color: #EEEEEE;
 }
+
+.rounded-pill.html {
+    background-color: #f36838;
+}
+
+.rounded-pill.css {
+    background-color: #006eba;
+}
+
+.rounded-pill.javascript {
+    background-color: #f7df1d;
+}
