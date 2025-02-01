@@ -61,3 +61,60 @@ body {
 .rounded-pill.javascript {
     background-color: #f7df1d;
 }
+
+.projects-container {
+    background-color: #222831;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 0.5s;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #66bfbf;
+    transition: all ease-in-out 0.5s;
+}
+
+.image-container:hover {
+    width: 200%;
+    cursor: pointer;
+}
+
+.image-container:hover img {
+    opacity: 0.5;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 20px; /* Adjusted to position the text a bit above */
+    left: 0;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px; /* Rounded corners for the text background */
+    display: none;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif; /* Montserrat font */
+    font-weight: bold; /* Bold text */
+    transition: opacity 1s ease-in-out 0.5s;
+    opacity: 0;
+}
+
+.image-container:hover .image-text {
+    display: block;
+    opacity: 1;
+}
